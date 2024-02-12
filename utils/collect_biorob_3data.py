@@ -8,6 +8,7 @@ from pathlib import Path
 from glob import glob
 import os.path as osp
 import numpy as np
+import argparse
 
 BASE_DIR = r"./utils"
 ROOT_DIR = r"./"
@@ -48,8 +49,14 @@ def parse_label(label_file):
                 data_started = True
     return data_list
 
-def main():
-    mode = 'val'
+def parse_args():
+    parser = argparse.ArgumentParser('Model')
+    parser.add_argument('--mode', type=str, default='train', help='mode name [default: train]')
+
+    return parser.parse_args()
+
+def main(args):
+    mode = args.mode
     area_list = find_dir(DATASET_DIR)
     output_folder = os.path.join(ROOT_DIR, 'data/biorob_3d/'+mode)
     if not os.path.exists(output_folder):
@@ -69,6 +76,6 @@ def main():
         print(area_list, 'ERROR!!')
 
 if __name__=='__main__':
-    main()
-
+    args = parse_args()
+    main(args)
 
