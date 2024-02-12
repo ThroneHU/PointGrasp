@@ -35,13 +35,13 @@ cd touchTorch
 
 1. Annotate point cloud data using *semantic-segmentation-editor* and collect **.pcd* labels.
 
-2. Generate **.npy* data for training.
+2. Generate **.npy* data for `train/val/` by modifying mode.
 ```python
 cd utils
-python collect_biorob_3data.py
+python collect_biorob_3data.py --mode train
 ```
 
-Processed data will save in `datasets/sub_ycb`
+Processed data will be saved in `datasets/sub_ycb/train`.
 
 ### Run
 ```python
