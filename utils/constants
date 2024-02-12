@@ -1,1 +1,5 @@
+# @Time    : 12/02/2024 16:17
+# @Author  : Tyrone Chen HU
 
+classes = ['Background', '028_skillet_lid', '019_pitcher_base', '025_mug', '035_power_drill', '048_hammer', '043_phillips_screwdriver',
+           'Large_marker', '030_fork', '031_spoon', '032_knife', 'handle']
