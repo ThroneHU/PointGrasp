@@ -45,7 +45,7 @@ Processed data will be saved in `datasets/sub_ycb/train`.
 
 ### Run
 ```python
-python train_semseg.py
+python train_complex.py
 python test_e2e.py
 ```
 
