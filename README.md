@@ -41,7 +41,7 @@ cd utils
 python collect_biorob_3data.py
 ```
 
-Processed data will save in `datasets/biorob_3d`
+Processed data will save in `datasets/sub_ycb`
 
 ### Run
 ```python
