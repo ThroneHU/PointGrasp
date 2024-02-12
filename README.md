@@ -25,7 +25,32 @@ git clone https://github.com/ehsanik/touchTorch
 cd touchTorch
 ```
 
-3. Download the PointNet++ from [here](https://github.com/charlesq34/pointnet2).
+### PointNet++
+
+1. Download the PointNet++ from [here](https://github.com/charlesq34/pointnet2).
+
+2. Move the train and Inference scripts to the solver directory.
+
+### Data Preparation
+
+1. Annotate point cloud data using *semantic-segmentation-editor* and collect **.pcd* labels.
+
+2. Generate **.npy* data for training.
+```python
+cd utils
+python collect_biorob_3data.py
+```
+
+Processed data will save in `datasets/biorob_3d`
+
+### Run
+```python
+python train_semseg.py
+python test_e2e.py
+```
+
+### Reference By
+[yanx27/Pointnet_Pointnet2_pytorch](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)
 
 ### Citation
 
