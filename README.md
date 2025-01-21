@@ -2,7 +2,7 @@
 ---
 ## C. Hu, S. Lyu, E. Rho, D. Kim, S. Luo, L. Gionfrida 
 ---
-<!-- -->This project is an oral presentation at BioRob2024. <br>
+<!-- This project is an oral presentation at BioRob2024. -->
 
 [(Project Page)](https://github.com/ThroneHU/PointGrasp/blob/main) [(PDF)](https://github.com/ThroneHU/PointGrasp/blob/main) [(Slides)](https://github.com/ThroneHU/PointGrasp/blob/main) [(Video)](https://github.com/ThroneHU/PointGrasp/blob/main)
 
