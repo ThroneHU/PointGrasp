@@ -4,7 +4,7 @@
 ---
 <!-- This project is an oral presentation at BioRob2024. -->
 
-[(Project Page)](https://github.com/ThroneHU/PointGrasp/blob/main) [(PDF)](https://arxiv.org/abs/2403.12631) [(Slides)](https://github.com/ThroneHU/PointGrasp/blob/main) [(Video)](https://github.com/ThroneHU/PointGrasp/blob/main)
+[(Project Page)](https://sites.google.com/view/tyronehu/research/pointgrasp) [(PDF)](https://arxiv.org/abs/2403.12631) [(Slides)](https://sites.google.com/view/tyronehu/research/pointgrasp) [(Video)](https://sites.google.com/view/tyronehu/research/pointgrasp)
 
 ![image](https://github.com/ThroneHU/PointGrasp/blob/main/figs/Fig2.svg)
 
