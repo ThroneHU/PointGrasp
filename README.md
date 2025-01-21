@@ -56,4 +56,10 @@ python test_e2e.py
 
 If you find this project useful in your research, please consider citing:
 ```
+@article{hu2024pointgrasp,
+  title={PointGrasp: Point Cloud-based Grasping for Tendon-driven Soft Robotic Glove Applications},
+  author={Hu, Chen and Lyu, Shirui and Rho, Eojin and Kim, Daekyum and Luo, Shan and Gionfrida, Letizia},
+  journal={arXiv preprint arXiv:2403.12631},
+  year={2024}
+}
 ```
